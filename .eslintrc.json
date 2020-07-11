@@ -1,6 +1,6 @@
 {
     "env": {
-        "browser": true,
+        "node": true,
         "es2020": true
     },
     "extends": [
@@ -20,9 +20,10 @@
     ],
     "rules": {
       "prettier/prettier": "error",
+      "class-methods-use-this": "off",
       "import/extensions": [
         "error",
-        "ignonePackages",
+        "ignorePackages",
         {
           "ts": "never"
         }

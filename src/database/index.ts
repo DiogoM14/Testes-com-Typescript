@@ -1,3 +1,3 @@
-import { createConnection } from "typeorm";
+import { createConnection } from 'typeorm';
 
-createConnection(); //Procura em toda a pasta o ormconfig
+createConnection(); // Procura em toda a pasta o ormconfig
