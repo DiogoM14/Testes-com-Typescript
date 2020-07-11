@@ -3,6 +3,7 @@ import routes from './routes';
 
 const app = express();
 
+app.use(express);
 app.use(routes);
 
 app.listen(3333, () => {
